@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>借款类型</title>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/loan.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--异步加载页头-->
+<div id="header-box"></div>
+
+<div class="loan">
+  <div class="loan-content">
+    <p class="loan-title">
+      <i></i>
+      选择借款产品类型
+      <select name="" id="chooseBorrowType">
+        <option value="0">消费贷</option>
+        <option value="1">房保贷</option>
+        <option value="2">房险贷</option>
+        <option value="3">房金贷</option>
+        <option value="4">按揭贷</option>
+      </select>
+    </p>
+    <ul class="loan-list clearfloat">
+    <li>
+      <span class="w140"><b>*</b>姓名:</span>
+      <span>谢**</span>
+    </li>
+    <li>
+      <span class="w140"><b>*</b>身份证:</span>
+      <span>36*************44</span>
+    </li>
+    <li>
+      <span class="w140"><b>*</b>借款金额:</span>
+      <input type="text"/>
+    </li>
+    <li>
+      <span class="w140"><b>*</b>联系电话:</span>
+      <input type="text"/>
+    </li>
+    <li>
+      <span class="w140"><b>*</b>借款期限:</span>
+      <input type="text"/>
+    </li>
+    <li>
+      <span class="w140"><b>*</b>电子邮箱:</span>
+      <input type="text"/>
+    </li>
+    </ul>
+    <div class="ta-center">
+      <label>
+        <input type="checkbox"/>
+        我已阅读并同意 《借款合同》、《借款人确认书》
+      </label>
+    </div>
+    <div class="ta-center">
+      <button type="button">提交申请</button>
+    </div>
+  </div>
+</div>
+
+<!--异步加载页尾-->
+<footer class="footer"></footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/global.js"></script>
+<script>
+  $("#header-box").load("data/header.html", function () {//异步加载页头
+    main();
+    navText("网贷专区");
+  });
+</script>
+</body>
+</html>

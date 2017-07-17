@@ -1,0 +1,130 @@
+/*   announce主体   */
+.announce {
+  background: #f5f5f5;
+  font-size: 16px;
+  padding-bottom: 150px;
+}
+.announce .breadcrumb {
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+}
+.announce .a-left {
+  width: 250px;
+  float: left;
+  text-align: center;
+}
+.announce .a-left li {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.announce .a-left li a {
+  display: block;
+}
+.announce .a-left li a.cur {
+  width: 251px;
+  border: 1px solid #AFAFAF;
+  border-left: 5px solid #bf232e;
+  border-right: 0;
+  background: #fff;
+  color: #bf232e;
+  position: relative;
+  z-index: 100;
+}
+.announce .a-left li a:hover {
+  text-decoration: none;
+  background: #F9F9F9;
+}
+.announce .a-right {
+  width: 950px;
+  float: left;
+  border: 1px solid #AFAFAF;
+  background: #fff;
+  z-index: 5;
+  padding: 40px 30px 100px 30px;
+}
+.announce .a-right .a-title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #BFBFBF;
+  position: relative;
+}
+.announce .a-right .a-title .icon-notice {
+  display: inline-block;
+  width: 19px;
+  height: 18px;
+  margin: 0 10px;
+  background: url(../images/product-detail/product-detail.png) no-repeat 0 -250px;
+}
+.announce .a-right .a-title .icon-line {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  width: 40%;
+  height: 1px;
+  background: #BF252F;
+}
+.announce .a-right .notice-list li {
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+.announce .a-right .notice-list li:hover {
+  background: #eee;
+}
+.announce .a-right .notice-list li:hover .circle {
+  background: #BF252F;
+}
+.announce .a-right .notice-list li:hover .time {
+  color: #BF252F;
+}
+.announce .a-right .notice-list li .circle {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 30px 0 10px;
+  width: 6px;
+  height: 6px;
+  background: #333;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.announce .a-right .notice-list li .time {
+  float: right;
+}
+.announce .a-right .notice-list li a:hover {
+  color: #BF252F;
+}
+.announce .a-right .notice-content {
+  text-align: center;
+  color: #666;
+}
+.announce .a-right .notice-content h2 {
+  font-size: 18px;
+  color: #333;
+  line-height: 60px;
+}
+.announce .a-right .notice-content .notice-time {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.announce .a-right .notice-content .notice-txt {
+  font-size: 14px;
+  text-align: left;
+}
+.announce .a-right .notice-content .notice-txt p {
+  text-indent: 28px;
+  line-height: 30px;
+}
+.announce .a-right .notice-content .tr {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #333;
+}

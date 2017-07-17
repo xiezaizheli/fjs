@@ -1,0 +1,185 @@
+@font-size-base: 14px;
+@font-size-small: ceil(@font-size-base*0.857);
+@font-size-lager: ceil(@font-size-base*1.14);
+@body-text: #333;
+@link-hover-text: #262626;
+
+//共有的h1,p,a部分,重构
+.h1-demo {
+  font-size: 2.5*@font-size-lager !important;
+  font-weight: 400;
+  color: #000;
+  span {
+    font-size: 1.5*@font-size-lager;
+  }
+}
+
+.p-demo {
+  font-size: @font-size-lager;
+}
+
+.a-demo {
+  width: 138px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #4A4A4A;
+  border-radius: 15px;
+  font-size: @font-size-lager;
+  display: inline-block;
+  &.mr-20{
+    margin-right: 20px;
+  }
+  &:hover {
+    border: 1px solid #F54746;
+    color: #F54746;
+    text-decoration: none;
+  }
+}
+
+/*     guide主体      */
+.guide {
+  margin-top: 30px;
+  color: #4A4A4A;
+  width: 1175px;
+  .guide-choose {
+    li {
+      font-size: @font-size-lager;
+      float: left;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      width: 250px;
+      background: #ebebeb;
+      &.current {
+        background: #fff;
+        color: #F54746;
+        line-height: 38px;
+        border-top: 2px solid #F54746;
+      }
+    }
+  }
+}
+
+//轻松投资主要内容
+.guide-newuser {
+  //注册账号
+  .guide-register {
+    background: url("../images/guide/guide1_1.png") no-repeat 0 0;
+    width: 1175px;
+    height: 422px;
+    position: relative;
+    .gr-left {
+      margin: 100px 50px;
+      h1 {
+        .h1-demo;
+        margin-bottom: 20px;
+      }
+      p {
+        .p-demo;
+        margin-bottom: 100px;
+      }
+      a{
+        .a-demo;
+      }
+    }
+    .gr-right{
+      position: absolute;
+      top: 75px;
+      right: 255px;
+      text-align: center;
+      h1 {
+        font-size: 1.5*@font-size-lager;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      h2 {
+        font-size: 2.025*@font-size-lager;
+        color: #F54746;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      .join-fjs {
+        height: 36px;
+        line-height: 36px;
+        display: block;
+        color: #fff;
+        background: #F54746;
+        border-radius: 15px;
+        font-size: @font-size-lager;
+      }
+    }
+  }
+  //图片和文字的左右划分
+  .guide-intro{
+    width: 100%;
+
+    //图片部分
+    div[class*=img] {
+      float: left;
+      background-image: url("../images/guide/guide.png");
+      background-repeat: no-repeat;
+      margin: 30px 0;
+      height: 230px;
+      width: 50%;
+    }
+    .guide-img1 {
+      background-position: 154px 0;
+    }
+    .guide-img2 {
+      background-position: 154px -250px;
+    }
+    .guide-img3 {
+      background-position: 154px -500px;
+    }
+    .guide-img4 {
+      margin: 25px 0 !important;
+      height: 240px !important;
+      background-position: 154px -750px;
+    }
+
+    //文字部分
+    .text {
+      float: left;
+      height: 230px;
+      width: 50%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      padding-left: 124px;
+      h1 {
+        .h1-demo;
+        margin-bottom: 15px;
+      }
+      p {
+        .p-demo;
+        margin-bottom: 5px;
+      }
+      a {
+        .a-demo;
+        margin-top: 30px;
+      }
+    }
+  }
+  //底部的电话服务部分
+  .custom-service {
+    padding-left: 474px;
+    margin: 50px 0 120px 0;
+    font-size: 1rem;
+    i {
+      float: left;
+      width: 43px;
+      height: 47px;
+      background: url("../images/guide/guide.png") no-repeat 0 -1060px;
+      margin-right: 20px;
+      margin-top: 2px;
+    }
+    p {
+      float: left;
+      margin-top: -5px;
+      line-height: 30px;
+    }
+  }
+}

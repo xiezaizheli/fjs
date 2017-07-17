@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>理财专区</title>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/finance.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--异步加载页头-->
+<div id="header-box"></div>
+
+<!--主体内容-->
+<div class="market container">
+  <ul class="market-name">
+    <li class="invest-area">理财项目专区</li>
+  </ul>
+  <div class="invest-content">
+    <a class="fjs-intro" href="" target="_blank">
+      <img src="images/market/invest1.png">
+    </a>
+    <div class="invest-title">*仅显示近期投资项目</div>
+  </div>
+  <table class="market-list">
+    <thead>
+    <tr>
+      <th class="w300">项目名称</th>
+      <th>预期年化收益</th>
+      <th>标的总额(元)</th>
+      <th>投资期限</th>
+      <th>合作机构</th>
+      <th>项目特点</th>
+      <th>投资进度</th>
+      <th>状态</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!--异步加载tr里面的内容-->
+    </tbody>
+  </table>
+  <ul class="pages">
+    <!--异步加载分页条中的内容-->
+  </ul>
+</div>
+
+<!--异步加载页尾-->
+<footer class="footer"></footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/global.js"></script>
+<script src="js/finance.js"></script>
+</body>
+</html>

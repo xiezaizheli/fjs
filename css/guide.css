@@ -1,0 +1,202 @@
+.h1-demo {
+  font-size: 40px !important;
+  font-weight: 400;
+  color: #000;
+}
+.h1-demo span {
+  font-size: 24px;
+}
+.p-demo {
+  font-size: 16px;
+}
+.a-demo {
+  width: 138px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #4A4A4A;
+  border-radius: 15px;
+  font-size: 16px;
+  display: inline-block;
+}
+.a-demo.mr-20 {
+  margin-right: 20px;
+}
+.a-demo:hover {
+  border: 1px solid #F54746;
+  color: #F54746;
+  text-decoration: none;
+}
+/*     guide主体      */
+.guide {
+  margin-top: 30px;
+  color: #4A4A4A;
+  width: 1175px;
+}
+.guide .guide-choose li {
+  font-size: 16px;
+  float: left;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  width: 250px;
+  background: #ebebeb;
+}
+.guide .guide-choose li.current {
+  background: #fff;
+  color: #F54746;
+  line-height: 38px;
+  border-top: 2px solid #F54746;
+}
+.guide-newuser .guide-register {
+  background: url("../images/guide/guide1_1.png") no-repeat 0 0;
+  width: 1175px;
+  height: 422px;
+  position: relative;
+}
+.guide-newuser .guide-register .gr-left {
+  margin: 100px 50px;
+}
+.guide-newuser .guide-register .gr-left h1 {
+  font-size: 40px !important;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 20px;
+}
+.guide-newuser .guide-register .gr-left h1 span {
+  font-size: 24px;
+}
+.guide-newuser .guide-register .gr-left p {
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+.guide-newuser .guide-register .gr-left a {
+  width: 138px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #4A4A4A;
+  border-radius: 15px;
+  font-size: 16px;
+  display: inline-block;
+}
+.guide-newuser .guide-register .gr-left a.mr-20 {
+  margin-right: 20px;
+}
+.guide-newuser .guide-register .gr-left a:hover {
+  border: 1px solid #F54746;
+  color: #F54746;
+  text-decoration: none;
+}
+.guide-newuser .guide-register .gr-right {
+  position: absolute;
+  top: 75px;
+  right: 255px;
+  text-align: center;
+}
+.guide-newuser .guide-register .gr-right h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.guide-newuser .guide-register .gr-right h2 {
+  font-size: 32.4px;
+  color: #F54746;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.guide-newuser .guide-register .gr-right p {
+  margin-bottom: 20px;
+}
+.guide-newuser .guide-register .gr-right .join-fjs {
+  height: 36px;
+  line-height: 36px;
+  display: block;
+  color: #fff;
+  background: #F54746;
+  border-radius: 15px;
+  font-size: 16px;
+}
+.guide-newuser .guide-intro {
+  width: 100%;
+}
+.guide-newuser .guide-intro div[class*=img] {
+  float: left;
+  background-image: url("../images/guide/guide.png");
+  background-repeat: no-repeat;
+  margin: 30px 0;
+  height: 230px;
+  width: 50%;
+}
+.guide-newuser .guide-intro .guide-img1 {
+  background-position: 154px 0;
+}
+.guide-newuser .guide-intro .guide-img2 {
+  background-position: 154px -250px;
+}
+.guide-newuser .guide-intro .guide-img3 {
+  background-position: 154px -500px;
+}
+.guide-newuser .guide-intro .guide-img4 {
+  margin: 25px 0 !important;
+  height: 240px !important;
+  background-position: 154px -750px;
+}
+.guide-newuser .guide-intro .text {
+  float: left;
+  height: 230px;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 124px;
+}
+.guide-newuser .guide-intro .text h1 {
+  font-size: 40px !important;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 15px;
+}
+.guide-newuser .guide-intro .text h1 span {
+  font-size: 24px;
+}
+.guide-newuser .guide-intro .text p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.guide-newuser .guide-intro .text a {
+  width: 138px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #4A4A4A;
+  border-radius: 15px;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 30px;
+}
+.guide-newuser .guide-intro .text a.mr-20 {
+  margin-right: 20px;
+}
+.guide-newuser .guide-intro .text a:hover {
+  border: 1px solid #F54746;
+  color: #F54746;
+  text-decoration: none;
+}
+.guide-newuser .custom-service {
+  padding-left: 474px;
+  margin: 50px 0 120px 0;
+  font-size: 1rem;
+}
+.guide-newuser .custom-service i {
+  float: left;
+  width: 43px;
+  height: 47px;
+  background: url("../images/guide/guide.png") no-repeat 0 -1060px;
+  margin-right: 20px;
+  margin-top: 2px;
+}
+.guide-newuser .custom-service p {
+  float: left;
+  margin-top: -5px;
+  line-height: 30px;
+}

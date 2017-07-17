@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>新手指导</title>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/guide.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--异步加载页头-->
+<div id="header-box"></div>
+
+<!--主体部分-->
+<div class="guide container">
+  <!--轻松投资和了解房金所切换-->
+  <ul class="guide-choose clearfloat">
+    <li class="current">轻松投资</li>
+    <li>了解房金所</li>
+  </ul>
+  <!--轻松投资主要内容-->
+  <div class="guide-newuser guide-content">
+    <!--01.注册账号-->
+    <div class="guide-register">
+      <!--左边-->
+      <div class="gr-left">
+        <h1>01<span>注册账号</span></h1>
+        <p>拥有手机号码即可注册，简单方便</p>
+        <a class="mr-20" href="">去注册</a>
+        <a href="">查看操作演示</a>
+      </div>
+      <!--右边手机上方-->
+      <div class="gr-right">
+        <h1>投资推荐</h1>
+        <h2>6-10%</h2>
+        <p>预期年化收益率</p>
+        <a class="join-fjs" href="">去加入</a>
+      </div>
+    </div>
+    <!--02.实名认证-->
+    <div class="guide-intro">
+      <div class="guide-img1"></div>
+      <div class="text">
+        <h1>02&nbsp;<span>实名认证</span></h1>
+        <p>输入身份证号+姓名即可，拥有专属你的</p>
+        <p>账号，使你账号更安全</p>
+        <a class="mr-20" href="">去认证</a>
+        <a href="">查看操作演示</a>
+      </div>
+    </div>
+    <!--03.设置密码-->
+    <div class="guide-intro">
+      <div class="text">
+        <h1>03&nbsp;<span>设置密码</span></h1>
+        <p>实名认证后，在设置交易密码，给账户多</p>
+        <p>一重保障，让你的投资更加安全可靠。</p>
+        <a class="mr-20" href="">去设置</a>
+        <a href="">查看操作演示</a>
+      </div>
+      <div class="guide-img2"></div>
+    </div>
+    <!--04.绑卡充值-->
+    <div class="guide-intro">
+      <div class="guide-img3"></div>
+      <div class="text">
+        <h1>04&nbsp;<span>绑卡充值</span></h1>
+        <p>设置密码后，当然第一时间去充值存钱罐了，</p>
+        <p>充值既有收益，遇到合适的项目就可以直接投了。</p>
+        <a class="mr-20" href="">去充值</a>
+        <a href="">查看操作演示</a>
+      </div>
+    </div>
+    <!--05.投资获利-->
+    <div class="guide-intro">
+      <div class="text">
+        <h1>05&nbsp;<span>投资获利</span></h1>
+        <p>账户开好了，钱也充好了，还等什么？</p>
+        <p>先投个标的，赚一笔！</p>
+        <a class="mr-20" href="">去投资</a>
+        <a href="">查看操作演示</a>
+      </div>
+      <div class="guide-img4"></div>
+    </div>
+    <!--电话拨打-->
+    <div class="custom-service">
+      <i></i>
+      <p>如有其它问题请与我们客服联系<br/>
+        客服电话：1010-1818
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--异步加载页尾-->
+<footer class="footer"></footer>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/global.js"></script>
+<script>
+  $("#header-box").load("data/header.html", function () {//异步加载页头
+    main();
+    navText();
+  });
+</script>
+</body>
+</html>

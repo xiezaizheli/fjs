@@ -1,0 +1,31 @@
+/*主体部分的6张大图。使用背景技术的方式实现*/
+.safety div[class*=section] {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-width: 1175px;
+}
+.safety .section1 {
+  background-image: url("../images/safety/safety_1.png");
+  height: 1625px;
+}
+.safety .section2 {
+  background-image: url("../images/safety/safety_2.png");
+  height: 533px;
+}
+.safety .section3 {
+  background-image: url("../images/safety/safety_3.png");
+  height: 620px;
+}
+.safety .section4 {
+  background-image: url("../images/safety/safety_4.png");
+  height: 620px;
+}
+.safety .section5 {
+  background-image: url("../images/safety/safety_5.png");
+  height: 620px;
+}
+.safety .section6 {
+  background-image: url("../images/safety/safety_6.png");
+  height: 620px;
+}

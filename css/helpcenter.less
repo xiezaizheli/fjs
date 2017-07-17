@@ -1,0 +1,174 @@
+@font-size-base: 14px;
+@font-size-small: ceil(@font-size-base*0.857);
+@font-size-lager: ceil(@font-size-base*1.14);
+@body-text: #333;
+@link-hover-text: #262626;
+
+/*     helpcenter主体   */
+.help-main {
+  background: #f5f5f5;
+  .help-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.125*@font-size-lager;
+    padding-left: 40px;
+    background: url(../images/helpcenter/helpcenter.png) no-repeat 0 10px;
+  }
+  .help-content {
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 70px;
+    min-height: 500px;
+    h1 {
+      font-size: 1.875*@font-size-lager;
+      font-weight: 400;
+      padding: 30px 0;
+      letter-spacing: 1.3px;
+      i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 153px;
+        height: 114px;
+        background: url(../images/helpcenter/helpcenter.png) no-repeat 0 -40px;
+      }
+    }
+    .question {
+      padding: 20px 0;
+      font-size: @font-size-lager;
+      li {
+        width: 268px;
+        float: left;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 60px;
+        line-height: 60px;
+        margin: 0 47.5px;
+        a {
+          color: #4A4A4A;
+          letter-spacing: 1px;
+          &:hover {
+            text-decoration: none;
+            color: #00B6FF;
+          }
+        }
+      }
+    }
+    .q-icon {
+      padding: 20px 0;
+      font-size: 1.25*@font-size-lager;
+      a {
+        float: left;
+        width: 268px;
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin: 0 47.5px 40px;
+        padding-left: 120px;
+        height: 90px;
+        line-height: 88px;
+        border: 1px solid #d8d8d8;
+        background: url(../images/helpcenter/helpcenter.png) no-repeat;
+        &.img1 {
+          background-position: 30px -166px;
+        }
+        &.img2 {
+          background-position: 30px -246px;
+        }
+        &.img3 {
+          background-position: 30px -326px;
+        }
+        &.img4 {
+          background-position: 30px -406px;
+        }
+        &.img5 {
+          background-position: 30px -486px;
+        }
+        &.img6 {
+          background-position: 30px -566px;
+        }
+        &:hover {
+          text-decoration: none;
+          background-color: #EDEFF5;
+          border: 1px solid #999;
+        }
+      }
+    }
+    .opera {
+      a {
+        height: 150px;
+        margin: 30px 0;
+        width: 280px;
+        float: left;
+        text-align: center;
+        font-size: 1.125*@font-size-lager;
+        &:hover {
+          text-decoration: none;
+          color: #00B6FF;
+        }
+        i {
+          display: block;
+          width: 85px;
+          height: 85px;
+          margin: 0 auto 20px;
+          background: url(../images/helpcenter/helpcenter.png) no-repeat;
+          &.o-icon1 {
+            background-position: 8px -660px;
+          }
+          &.o-icon2 {
+            background-position: 0 -750px;
+          }
+          &.o-icon3 {
+            background-position: 0 -840px;
+          }
+          &.o-icon4 {
+            background-position: 0 -940px;
+          }
+          &.o-icon5 {
+            background-position: 0 -1040px;
+          }
+          &.o-icon6 {
+            background-position: 0 -1140px;
+          }
+          &.o-icon7 {
+            background-position: 0 -1250px;
+          }
+          &.o-icon8 {
+            background-position: 0 -1350px;
+          }
+        }
+      }
+    }
+    .oto-service {
+      margin-bottom: 30px;
+      dl {
+        float: left;
+        width: 373px;
+        text-align: center;
+        dt {
+          margin: 30px auto;
+          line-height: 100px;
+          width: 80px;
+          height: 80px;
+          background: url(../images/helpcenter/helpcenter.png) no-repeat;
+          &.oto-icon1 {
+            background-position: 0 -1440px;
+          }
+          &.oto-icon2 {
+            background-position: -90px -1590px;
+          }
+          &.oto-icon3 {
+            background-position: 10px -1520px;
+          }
+        }
+        dd{
+          line-height: 30px;
+          span{
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+}

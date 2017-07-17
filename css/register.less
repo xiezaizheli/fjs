@@ -1,0 +1,193 @@
+@font-size-base: 14px;
+@font-size-small: ceil(@font-size-base*0.857);
+@font-size-lager: ceil(@font-size-base*1.14);
+@body-text: #333;
+@link-hover-text: #262626;
+
+/*    register主体    */
+.member-content {
+  padding-left: 60px !important;
+  .mr-left {
+    width: 50%;
+    float: left;
+    margin-top: 40px !important;
+    border: 1px solid #ccc;
+    min-height: 516px;
+    height: 516px;
+    padding: 50px 0 20px 45px;
+  }
+  .mr-right {
+    width: 50%;
+    float: left;
+    padding-top: 54px;
+  }
+}
+
+//所有input标签
+.form-group {
+  margin-bottom: 20px;
+  line-height: 40px;
+  position: relative;
+  &.upwd{
+    margin-bottom: 10px;
+  }
+  .control-label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: @font-size-base;
+    width: 90px;
+    text-align: right;
+    margin-right: 8px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .form-control-lg, .form-control-s {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    outline: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    &:focus {
+      border: 1px solid #8dccee;
+      -webkit-box-shadow: 0 0 5px #8dccee;
+      -moz-box-shadow: 0 0 5px #8dccee;
+      box-shadow: 0 0 5px #8dccee;
+    }
+    i {
+      position: absolute;
+      background: url(../images/icon_1.png) no-repeat;
+      &.user {
+        top: 11.5px;
+        left: 11px;
+        width: 18px;
+        height: 17px;
+        background-position: 0 -840px;
+      }
+      &.key {
+        width: 12px;
+        height: 15px;
+        background-position: 0 -870px;
+        top: 12.5px;
+        left: 14px;
+      }
+    }
+  }
+  .form-control-lg {
+    width: 242px;
+  }
+  .form-control-s {
+    width: 120px;
+  }
+  .tip-box {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    .error {
+      position: absolute;
+      display: none;
+      top: 6px;
+      left: 5px;
+      z-index: 10;
+      font-size: @font-size-small;
+      height: 28px;
+      line-height: 18px;
+      padding: 5px;
+      padding-left: 30px;
+      white-space: nowrap;
+      max-width: 350px;
+      overflow: hidden;
+      border: 1px solid #ff5c4c;
+      color: #ff5c4c;
+      background: url(../images/icon_1.png) no-repeat 5px -893.5px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+    }
+    .succ{
+      display: none;
+      width: 15px;
+      height:16px;
+      position: absolute;
+      z-index: 10;
+      margin: 12.5px 0 0 10px;
+      background: url(../images/icon_1.png) no-repeat 0px -930px;
+    }
+  }
+  .change-pic {
+    font-size: @font-size-small;
+    color: #127cad !important;
+  }
+  .t-btn {
+    height: 40px;
+    width: 120px;
+    border: 0;
+    background: #f39800;
+    color: #fff;
+    margin: 0 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }
+  .upwd-info{
+    margin-left: 98px;
+    font-size: 10px;
+    color: #666;
+  }
+}
+
+//我已阅读复选框
+.chb{
+  margin-bottom: 15px;
+  input{
+    width: 16px;
+    height:16px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  span{
+    color: #127cad !important;;
+  }
+}
+
+//注册
+.register-btn {
+  display: block;
+  width: 285px;
+  height: 48px;
+  margin-left: 98px;
+  margin-bottom: 20px;
+  background: rgb(250, 76, 59);
+  border: 0;
+  font-size: 1.125*@font-size-lager;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  &:focus, &:hover {
+    opacity: .85;
+    outline: none;
+  }
+}
+.disabled{
+  background: #b0b0b0 !important;
+}
+
+//已有账号，登录入口
+.login-enter{
+  text-align: right;
+  margin-right: 124px;
+  font-size: @font-size-small;
+  a{
+    color: #127cad !important;
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>欢迎登录</title>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/login.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--异步加载页头-->
+<div id="header-box"></div>
+
+<!--login主体部分-->
+<div class="member">
+  <div class="container">
+    <!--顶部内容-->
+    <ul class="member-title clearfloat">
+      <li class="breadcrumb">
+        <a href="">房金所</a>&nbsp;&gt;&nbsp;<span>手机账号登录</span>
+      </li>
+      <li class="mt-right">
+        <i></i>
+        <a href="">回到首页</a>
+        <span>&nbsp;|&nbsp;</span>
+        <a href="">帮助</a>
+      </li>
+    </ul>
+    <!--详细内容-->
+    <div class="member-content">
+      <p class="mcl-title">还没有房金所账号？<a href="">立即注册</a></p>
+      <a class="login-left" href=""><img src="images/member/login.jpg"></a>
+      <form class="login-right" action="">
+        <!--手机号码-->
+        <div class="form-group">
+          <label class="control-label" for="tel">手机号</label>
+          <div class="input-group">
+            <i class="user"></i>
+            <input class="form-control" id="tel" placeholder="请输入手机号" value="15000734841">
+          </div>
+          <span class="tip" id="tel-tip">请输入手机号</span>
+        </div>
+        <!--密码-->
+        <div class="form-group">
+          <label class="control-label" for="upwd">登录密码</label>
+
+          <div class="input-group">
+            <i class="key"></i>
+            <input class="form-control" id="upwd" placeholder="请输入密码" value="123456">
+          </div>
+          <span class="tip" id="upwd-tip">请输入密码</span>
+        </div>
+        <!--忘记密码-->
+        <a class="forget-upwd" href="">忘记密码？</a>
+        <!--账号和密码错误的提示口-->
+        <div id="login-info"></div>
+        <!--登录-->
+        <button class="login-btn" type="button" id="login">登录</button>
+        <!--原微博账号登录口-->
+        <p class="weibo-enter">
+          <i></i>
+          原微博账号登录<a href="">请点击这里</a>
+        </p>
+        <!--买房宝用户提示-->
+        <p class="mfb-info">
+          买房宝用户请用绑定手机号作为用户名登录，登录密码不变(点击“忘记密码”可进行重置)。若登录遇到任何问题请 拨打客服电话：10101818
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!--异步加载页尾-->
+<footer class="footer"></footer>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/global.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

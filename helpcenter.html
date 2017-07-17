@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>帮助中心</title>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/helpcenter.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--异步加载页头-->
+<div id="header-box"></div>
+
+<!--帮助中心主体-->
+<div class="help-main">
+  <div class="container">
+    <p class="help-title">帮助中心</p>
+    <div class="help-content">
+      <h1>热点问题<i></i></h1>
+      <ul class="question clearfloat">
+        <li><a href="">认证手机停用且忘记投资密码、支付密码，如何变更认证手机及找回密码？</a></li>
+        <li><a href="">申请随心贷出现“抱歉，系统有点忙……”怎么办？</a></li>
+        <li><a href="">房金所认证手机如何修改？</a></li>
+        <li><a href="">如何注册？</a></li>
+        <li><a href="">微博账号现在怎么登录房金所？</a></li>
+        <li><a href="">提现申请成功了，钱又退回存钱罐账户怎么办？</a></li>
+        <li><a href="">如何修改新浪认证手机？</a></li>
+        <li><a href="">基金产品保障借款收益为什么到账都延迟？</a></li>
+        <li><a href="">添加银行卡出现“银行卡验证失败”怎么办？</a></li>
+      </ul>
+      <div class="q-icon clearfloat">
+        <a class="img1" href="">操作演示</a>
+        <a class="img2" href="">常见问题</a>
+        <a class="img3" href="">安全保障</a>
+        <a class="img4" href="">新手指引</a>
+        <a class="img5" href="">产品介绍</a>
+        <a class="img6" href="">关于我们</a>
+      </div>
+      <h1>常用操作</h1>
+      <div class="opera">
+        <a href="">
+          <i class="o-icon1"></i>
+          <span>注册</span>
+        </a>
+        <a href="">
+          <i class="o-icon2"></i>
+          <span>设置投资密码</span>
+        </a>
+        <a href="">
+          <i class="o-icon3"></i>
+          <span>实名认证</span>
+        </a>
+        <a href="">
+          <i class="o-icon4"></i>
+          <span>设置支付密码</span>
+        </a>
+        <a href="">
+          <i class="o-icon5"></i>
+          <span>忘记登录密码</span>
+        </a>
+        <a href="">
+          <i class="o-icon6"></i>
+          <span>更换手机号</span>
+        </a>
+        <a href="">
+          <i class="o-icon7"></i>
+          <span>绑定银行卡</span>
+        </a>
+        <a href="">
+          <i class="o-icon8"></i>
+          <span>忘记支付密码</span>
+        </a>
+      </div>
+      <h1>一对一服务</h1>
+      <div class="oto-service">
+        <dl>
+          <dt class="oto-icon1"></dt>
+          <dd class="font-20"><span>客服电话</span>&nbsp;1010-1818</dd>
+          <dd class="font-16">工作日9:00-12:00 13:00-18:00</dd>
+        </dl>
+        <dl>
+          <dt class="oto-icon2"></dt>
+          <dd class="font-20"><span>QQ客服</span>&nbsp;3067800081</dd>
+          <dd class="font-16">工作日9:00-20:00</dd>
+        </dl>
+        <dl>
+          <dt class="oto-icon3"></dt>
+          <dd class="font-20"><span>客服邮箱</span>&nbsp;cs@fangjs.com</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<!--异步加载页尾-->
+<footer class="footer"></footer>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/global.js"></script>
+<script>
+  $("#header-box").load("data/header.html", function () {//异步加载页头
+    main();
+    navText();
+  });
+</script>
+</body>
+</html>

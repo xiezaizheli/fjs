@@ -1,0 +1,166 @@
+/*     helpcenter主体   */
+.help-main {
+  background: #f5f5f5;
+}
+.help-main .help-title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  padding-left: 40px;
+  background: url(../images/helpcenter/helpcenter.png) no-repeat 0 10px;
+}
+.help-main .help-content {
+  padding: 40px;
+  background: #fff;
+  margin-bottom: 70px;
+  min-height: 500px;
+}
+.help-main .help-content h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 30px 0;
+  letter-spacing: 1.3px;
+}
+.help-main .help-content h1 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 153px;
+  height: 114px;
+  background: url(../images/helpcenter/helpcenter.png) no-repeat 0 -40px;
+}
+.help-main .help-content .question {
+  padding: 20px 0;
+  font-size: 16px;
+}
+.help-main .help-content .question li {
+  width: 268px;
+  float: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 47.5px;
+}
+.help-main .help-content .question li a {
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.help-main .help-content .question li a:hover {
+  text-decoration: none;
+  color: #00B6FF;
+}
+.help-main .help-content .q-icon {
+  padding: 20px 0;
+  font-size: 20px;
+}
+.help-main .help-content .q-icon a {
+  float: left;
+  width: 268px;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0 47.5px 40px;
+  padding-left: 120px;
+  height: 90px;
+  line-height: 88px;
+  border: 1px solid #d8d8d8;
+  background: url(../images/helpcenter/helpcenter.png) no-repeat;
+}
+.help-main .help-content .q-icon a.img1 {
+  background-position: 30px -166px;
+}
+.help-main .help-content .q-icon a.img2 {
+  background-position: 30px -246px;
+}
+.help-main .help-content .q-icon a.img3 {
+  background-position: 30px -326px;
+}
+.help-main .help-content .q-icon a.img4 {
+  background-position: 30px -406px;
+}
+.help-main .help-content .q-icon a.img5 {
+  background-position: 30px -486px;
+}
+.help-main .help-content .q-icon a.img6 {
+  background-position: 30px -566px;
+}
+.help-main .help-content .q-icon a:hover {
+  text-decoration: none;
+  background-color: #EDEFF5;
+  border: 1px solid #999;
+}
+.help-main .help-content .opera a {
+  height: 150px;
+  margin: 30px 0;
+  width: 280px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+}
+.help-main .help-content .opera a:hover {
+  text-decoration: none;
+  color: #00B6FF;
+}
+.help-main .help-content .opera a i {
+  display: block;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 20px;
+  background: url(../images/helpcenter/helpcenter.png) no-repeat;
+}
+.help-main .help-content .opera a i.o-icon1 {
+  background-position: 8px -660px;
+}
+.help-main .help-content .opera a i.o-icon2 {
+  background-position: 0 -750px;
+}
+.help-main .help-content .opera a i.o-icon3 {
+  background-position: 0 -840px;
+}
+.help-main .help-content .opera a i.o-icon4 {
+  background-position: 0 -940px;
+}
+.help-main .help-content .opera a i.o-icon5 {
+  background-position: 0 -1040px;
+}
+.help-main .help-content .opera a i.o-icon6 {
+  background-position: 0 -1140px;
+}
+.help-main .help-content .opera a i.o-icon7 {
+  background-position: 0 -1250px;
+}
+.help-main .help-content .opera a i.o-icon8 {
+  background-position: 0 -1350px;
+}
+.help-main .help-content .oto-service {
+  margin-bottom: 30px;
+}
+.help-main .help-content .oto-service dl {
+  float: left;
+  width: 373px;
+  text-align: center;
+}
+.help-main .help-content .oto-service dl dt {
+  margin: 30px auto;
+  line-height: 100px;
+  width: 80px;
+  height: 80px;
+  background: url(../images/helpcenter/helpcenter.png) no-repeat;
+}
+.help-main .help-content .oto-service dl dt.oto-icon1 {
+  background-position: 0 -1440px;
+}
+.help-main .help-content .oto-service dl dt.oto-icon2 {
+  background-position: -90px -1590px;
+}
+.help-main .help-content .oto-service dl dt.oto-icon3 {
+  background-position: 10px -1520px;
+}
+.help-main .help-content .oto-service dl dd {
+  line-height: 30px;
+}
+.help-main .help-content .oto-service dl dd span {
+  color: #666;
+}
